@@ -13,7 +13,9 @@ public class Base {
 	private ExpectedCondition<Boolean> pageTitleStartsWith(final String searchString)
 	{
 		return driver -> driver.getTitle().startsWith(searchString.toLowerCase());
-		
+		//user 2 added code
+		System.out.println("Fine code example");
+		//user one added new line
 	}
 	
 	
